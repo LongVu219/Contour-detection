@@ -3,6 +3,13 @@
 This is my implementation for the contour-detection task given to me during batch13 vinAI interview. In short, this model aim to detect the bounding box, the center, the number of circle for each plot in the image. The main method used here is YOLO - You Only Look Once. I have coded it from scratch (TinyYOLO) and utilized ultralytics library so i can provide a comprehensive comparison between each model but it turn out that my scratch model has to faced some problems.
 
 ### Overview of the dataset
+<p align="center">
+  <img src="images/overview/contour_000035.png" width="200" />
+  <img src="images/overview/contour_000038.png" width="200" />
+  <img src="images/overview/contour_000039.png" width="200" />
+  <img src="images/overview/contour_000106.png" width="200" />
+  <img src="images/overview/contour_000107.png" width="200" />
+</p>
 
 ## Challenge
 - Overlap circle : Some generated images have their contour plot overlap on each other, making detection task more challenging.
