@@ -4,11 +4,10 @@ This is my implementation for the contour-detection task given to me during batc
 
 ### Overview of the dataset
 <p align="center">
-  <img src="images/overview/contour_000035.png" width="200" />
-  <img src="images/overview/contour_000038.png" width="200" />
-  <img src="images/overview/contour_000039.png" width="200" />
-  <img src="images/overview/contour_000106.png" width="200" />
-  <img src="images/overview/contour_000107.png" width="200" />
+  <img src="images/overview/contour_000085.png" width="200" />
+  <img src="images/overview/contour_000088.png" width="200" />
+  <img src="images/overview/contour_000093.png" width="200" />
+  <img src="images/overview/contour_000099.png" width="200" />
 </p>
 
 ## Challenge
