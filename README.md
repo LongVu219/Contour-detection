@@ -71,24 +71,18 @@ Clone this repo and install with
 ```
 pip install -r requirements.txt
 ```
-Anyway i have modified my local ultralytics library so i do not think you can re-run this code properly, but you can re-run the scratch yolo model without any issues
+Anyway i have modified my local ultralytics library so i do not think you can re-run this code properly, but you can re-run the scratch yolo model without any issues.
 
 ## Training
-To train best model run : 
+To train scratch model run : 
 ```
-python train.py
+python modules/train_scratch.py
 ```
-The model will have name “blue_cross.pth” and the log will be saved at “log.txt”
-## Evaluation
-to eval the best model run : 
-```
-python eval.py
-```
-## File description
-eval.py: evaluate function used in training phase <br>
-data.py: set up buffer and create dataloader <br>
-test.py: evaluate the win rate of blue and red agent after training <br>
-utils.py : some auxiliary functions that control the agent <br>
-train.py: you can set up some config for enviroment, call function train from Trainer to run cross_q algorithm 
 
-For further details on environment setup and agent interactions, please refer to the MAgent2 documentation.
+## File description
+loss.py: evaluate function used in training phase <br>
+dataset.py: create data <br>
+model.py: contain architecture of tinyYOLO <br>
+utils.py : some auxiliary functions that support iou, plot, ... <br>
+train_scratch.py: train my scratch model <br> 
+train_yolo_ultra.py: train ultralytic yolo model <br>
