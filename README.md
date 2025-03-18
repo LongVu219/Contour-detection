@@ -26,7 +26,7 @@ As i mentioned above, it's problematic to compare 2 models which have different 
 | YOLO11n             |   0.1014 | 0.99416 |             0.462  |
 | YOLO11s             |   0.1017 | **0.99488** |             0.453  |
 
-### Scratch model (TinyYOLO) demo
+### Scratch model (TinyYOLO) demo - click for a better view
 <p align="center">
   <img src="images/yolo_scratch/output_image.png" width="200" />
   <img src="images/yolo_scratch/output_image1.png" width="200" />
