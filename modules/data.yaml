@@ -1,0 +1,11 @@
+# Dataset configuration
+train: /home/longvv/Contour-detection/data/contour_dataset/train
+val: /home/longvv/Contour-detection/data/contour_dataset/val
+test: /home/longvv/Contour-detection/data/contour_dataset/test
+
+# Classes
+nc: 1
+names: ['irregular']  # class names
+
+# Annotations
+ann_file: /home/longvv/Contour-detection/data/contour_dataset/annotations.json  # COCO format annotations
